@@ -1,17 +1,19 @@
-# Final Project—_Sarcasm/Fake News Detector_
+<p align="center"> <b><i>Sarcasm/Fake News</i> Detector</b>
+<p align="center">
+☆.｡.:*　　.｡.:*☆ Introduction ☆.｡.:*　　.｡.:*☆
 
-### Sarcasm Detector
-For my final project, I would love to make a sarcasm detecting model. While doing my YouTube comments clustering project, I found it nearly impossible for my model to learn the relationship between sarcastic statements, and those which were not. I believe that if I were to train my model on a dataset of sarcastic and non-sarcastic statements, it would be able to learn the relationships between the two, and later be able to classify new statements between the two.
+Sarcasm can often be difficult to detect even for humans, especially for those who may be neurodivergent. In today's day and age, misinformation makes it even harder to decipher the truth from fiction, especially with the rise of fake news on social media. Efficient and accurate sarcasm detection can help distinguish between true and false information, and can provide helpful insights into the sentiment of a statement.
 
-Steps I would take to make this happen:
-- Scrape tweets by @dril (and/or another sarcastic individual... maybe me), and by high-profile politicians, or others with a large, genuine feed—one day
-- See if any keywords spike in either group, show representations via matplotlib—1 day or less
-- Train a model on these tweets to learn the relationship between sarcastic and non-sarcastic discourse—2-3 days
-- Try the model on new statements, and see how accurate it is—one day
-- Get the model running via JSON—1-2 days, play around with how it looks and actually make sure it fully works
-- ✨hope my computer can detect sarcasm now✨—hopefully zero seconds
+The project uses natural language processing and machine learning techniques to build a model that can accurately identify if a given statement is sarcastic or not. The model utilizes a large dataset of news headlines that have been labeled as either sarcastic (fake), or non-sarcastic (real).
 
-### Fake News Detector
-I also considered training a fake news detecting model as well. I first thought about doing sarcasm as a general goal to beat, but then I thought about easily scraping tweets by @theonion (satirical news site) and @CNN or another respected news outlet, and training the model on the tweets from those. My steps would follow the ones listed above, but changing which data I am after, and what the model would be used for.
+<p align="center">
+∞༺♥༻✧ Data Collection ✧༺♥༻∞
 
-that's my proposal! 🫡
+
+The data used for this project was collected from two sources: [_@theonion_](https://twitter.com/TheOnion) and [_@cnnbrk_](https://twitter.com/cnnbrk). 
+
+@theonion is a popular satirical news website and Twitter handle that often posts humorous and sarcastic articles. 
+
+@cnnbrk is the official Twitter handle for CNN Breaking News, a website dedicated to providing the latest (serious) news and updates. 
+
+The data was collected using the sntwitter library and was stored in two CSV files. Each file contains 5,000 tweets from each source. The tweets were then labeled as either “sarcastic” or “non-sarcastic”.
