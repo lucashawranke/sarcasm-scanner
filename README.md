@@ -21,7 +21,7 @@ The Multinomial Naive Bayes model is a simple model that uses the Naive Bayes al
 
 <p align="center">. 　　 ·　 ˚ ✧ Results ✧ ˚ 　· 　　 .
 
-The Multinomial Naive Bayes model achieved an accuracy score of 0.988, a precision score of 0.988, a recall score of 0.988, and an f1 score of 0.988.
-
-The LinearSVC model achieved an accuracy score of 0.988, a precision score of 0.988, a recall score of 0.988, and an f1 score of 0.988.
+The Multinomial Naive Bayes model achieved an accuracy score of 0.***, a precision score of 0.***, a recall score of 0.***, and an f1 score of 0.***.
+***
+The LinearSVC model achieved an accuracy score of 0.***, a precision score of 0.***, a recall score of 0.***, and an f1 score of 0.***.
 
