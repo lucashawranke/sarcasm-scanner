@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import joblib
 
 app = Flask(__name__)
-filename= "model2.pkl"
+filename= "lsvc.pkl"
 
 with open(filename, 'rb') as file:
     model = joblib.load(file)
