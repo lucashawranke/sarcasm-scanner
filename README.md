@@ -7,9 +7,9 @@ The project uses natural language processing and machine learning techniques to 
 
 <p align="center">. 　　 ·　 ˚ ✧ Data Collection ✧ ˚ 　· 　　 .
 
-The data used for this project was collected from two sources: [_@theonion_](https://twitter.com/TheOnion) and [_@cnnbrk_](https://twitter.com/cnnbrk), both accounts on Twitter. 
+The data used for this project was collected from four sources: [_@theonion_](https://twitter.com/TheOnion) and [_@ClickHole_](https://twitter.com/ClickHole), both satire accounts on Twitter, as well as [_@cnnbrk_](https://twitter.com/TheOnion) and [_@PopCrave_](https://twitter.com/PopCrave), accounts that post authentic news. 
 
-@theonion is a popular satirical news website and Twitter handle that often posts humorous and sarcastic articles, whereas @cnnbrk is the official Twitter handle for CNN Breaking News, a website dedicated to providing the latest (serious) news and updates. 
+@theonion and @ClickHole are both popular satirical news websites and Twitter handles that often posts humorous and sarcastic articles, whereas @cnnbrk is the official Twitter handle for CNN Breaking News, a website dedicated to providing the latest (serious) news and updates, and @PopCrave is an account which posts celebrity news updates.
 
 The data was collected using the sntwitter library and was stored in two CSV files. Each file contains 5,000 tweets from each source. The tweets were then labeled as either “sarcastic” or “non-sarcastic”.
 
