@@ -1,5 +1,5 @@
 <p align="center"> <b><i>Satire/Fake News</i> Detector</b>
-<p align="center"> ![chart](/chart.png)
+![chart](/chart.png)
 <p align="center">. 　　 ·　 ˚ ✧ Introduction ✧ ˚ 　· 　　 .
 
 Sarcasm can often be difficult to detect even for humans, especially for those who may be neurodivergent, or younger/older in age. In today's day and age, misinformation makes it even harder to decipher the truth from fiction, especially with the rise of fake news on social media. Efficient and accurate satire detection can help distinguish between true and false information, and can provide helpful insights into the sentiment of a statement.
