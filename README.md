@@ -1,4 +1,5 @@
 <p align="center"> <b><i>Satire/Fake News</i> Detector</b>
+  
 ![chart](https://i.ibb.co/tYHpMd2/Screenshot-2022-12-04-at-8-20-29-PM.png)
 <p align="center">. 　　 ·　 ˚ ✧ Introduction ✧ ˚ 　· 　　 .
 
