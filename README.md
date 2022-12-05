@@ -15,13 +15,24 @@ The data was collected using the sntwitter library and was stored in two CSV fil
 
 <p align="center">. 　　 ·　 ˚ ✧ ML Models ✧ ˚ 　· 　　 .
 
-Throughout this project, I have focused on developing two models for deployment; one Multinomial Naive Bayes model and one LinearSVC model.
+Throughout this project, I have focused on developing two models for deployment, and three others for testing; one Multinomial Naive Bayes model and one LinearSVC model are saved in the repository, as well as a Logistic Regression model, Random Forest Classifier model, Decision Tree Classifier model, and K Neighbors Classifier model saved at the end of the main notebook with their precision scores as well as matrices.
 
-The Multinomial Naive Bayes model is a simple model that uses the Naive Bayes algorithm to classify text. The LinearSVC model is a more complex model that uses the Linear Support Vector Classification algorithm to classify text. Both models were both given the same data.
+<p align="center">. 　　 ·　 ˚ ✧ Deployment ✧ ˚ 　· 　　 .
 
+The model is deployed using Flask. The user can input a statement into the text box and the model will predict whether the statement is sarcastic or not.
+  
 <p align="center">. 　　 ·　 ˚ ✧ Results ✧ ˚ 　· 　　 .
 
-The Multinomial Naive Bayes model achieved an accuracy score of 0.❓, a precision score of 0.❓, a recall score of 0.❓, and an f1 score of 0.❓.
-***
-The LinearSVC model achieved an accuracy score of 0.❓, a precision score of 0.❓, a recall score of 0.❓, and an f1 score of 0.❓.
+The Multinomial Naive Bayes model achieved an accuracy score of ~0.91, and the LinearSVC model achieved an accuracy score of ~0.95!
 
+<p align="center">. 　　 ·　 ˚ ✧ Future Work ✧ ˚ 　· 　　 .
+
+In the future, I would like to expand the dataset to include more sources of varying types of accounts, news or satire parodies of such or not, and also play around with certain parameters of the models to see if I can achieve a higher accuracy score. I would also like to deploy the model using a different framework, such as Heroku, and create a beautiful web application that can be used by anyone.
+
+<p align="center">. 　　 ·　 ˚ ✧ Acknowledgements ✧ ˚ 　· 　　 .
+
+I would love to thank my mentors, [Mohammed Salma[(https://github.com/dataubc) and [Mohammad Sultan](https://github.com/mohammad9522), for their guidance and support throughout this project. I would also like to thank StackOverflow for being there for me when things got hard.
+
+<p align="center">. 　　 ·　 ˚ ✧ Contact ✧ ˚ 　· 　　 .
+
+If you have any questions, comments, or concerns, please feel free to reach out to me at [my email](mailto:lucashawranke@gmail.com), or [my LinkedIn](https://www.linkedin.com/in/lucas-hawranke-98a317125/).

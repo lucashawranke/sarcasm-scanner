@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib.pyplot
+wordcloud
+re
+nltk
+joblib
+pickle
+re
+snscrape.modules.twitter
+sklearn
