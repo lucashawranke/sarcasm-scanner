@@ -25,7 +25,7 @@ The model is deployed using Flask. The user can input a statement into the text 
   
 <p align="center">. 　　 ·　 ˚ ✧ Results ✧ ˚ 　· 　　 .
 
-The Multinomial Naive Bayes model achieved an accuracy score of ~0.91, and the LinearSVC model achieved an accuracy score of ~0.95! Other models mentioned in 
+The Multinomial Naive Bayes model achieved an accuracy score of ~0.91, and the LinearSVC model achieved an accuracy score of ~0.95! Other models mentioned previously range from ~0.84-0.94 in terms of accuracy.
 
 <p align="center">. 　　 ·　 ˚ ✧ Future Work ✧ ˚ 　· 　　 .
 
